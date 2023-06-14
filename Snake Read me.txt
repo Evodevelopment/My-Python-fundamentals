@@ -1,4 +1,4 @@
-
+Create python pom.py bat file
 
 
 1) vsechno vymazali
