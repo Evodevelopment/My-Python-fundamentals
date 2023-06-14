@@ -1,0 +1,109 @@
+
+import pom
+from pom import znak, klavesa, cti, vymaz
+import time
+import random
+
+vymaz()
+
+startX = 0
+startY = 0
+sirka = 70
+vyska = 30
+pocetPotravy = 10
+
+had = [(10,1)]  # hlava je posledni 
+smer = 'dolu'
+
+# nakresleni horni hranice
+for i in range(startX, startX + sirka):
+    znak(i, startY, "#")
+
+# nakresleni leve hranice
+for i in range(startY, startY + vyska):
+    znak(startX, i, "#")
+
+# nakresleni prave hranice
+for i in range(startY, startY + vyska):
+    znak(startX+sirka, i, "#")
+
+# nakresleni horni hranice
+for i in range(startX, startX + sirka):
+    znak(i, startY+vyska, "#")
+
+# vygenerovat potravu
+potrava = []
+for i in range(pocetPotravy):
+    potravaX = random.randint(startX+1, startX+sirka - 2)
+    potravaY = random.randint(startY+1, startY+vyska - 2) 
+    novaPotrava = (potravaX, potravaY)
+    potrava.append(novaPotrava)
+    znak(potravaX, potravaY, '$')
+
+def posunHada(smer):
+    # posune hada smerem 'smer', zatim nekontroluje hranice
+    hlavaX, hlavaY = had[-1]
+    novaHlavaX = 0
+    novaHlavaY = 0
+
+    if smer == 'dolu':
+        novaHlavaX = hlavaX
+        novaHlavaY = hlavaY+1
+
+    elif smer == 'nahoru':
+        novaHlavaX = hlavaX
+        novaHlavaY = hlavaY-1
+
+    elif smer == 'doleva':
+        novaHlavaX = hlavaX-1
+        novaHlavaY = hlavaY
+
+    elif smer == 'doprava':
+        novaHlavaX = hlavaX+1
+        novaHlavaY = hlavaY
+
+    novaHlava = (novaHlavaX, novaHlavaY)
+    had.append(novaHlava)
+
+    # zjistit jestli had spapal krmeni nebo ne
+    puvodniZnak = cti(novaHlavaX, novaHlavaY)
+
+    # vykreslit novou hlavu
+    znak(novaHlavaX, novaHlavaY, "*")
+
+    if puvodniZnak == '$':
+        # had papal! takze misto puvodni hlavy se stane telo
+        pass
+    else:
+        # had nepapal, tak odstranit posledni clanek hada
+        posledniClanek = had.pop(0)
+        posledniClanekX, posledniClanekY = posledniClanek
+        znak(posledniClanekX, posledniClanekY, " ")
+
+    if len(had) > 1:
+        # pokud ma had i telo, delsi nez jenom hlavu, tak misto znaku
+        # puvodni hlavy nakresli telo
+        znak(hlavaX, hlavaY, ".")
+
+
+# nakresli zacatek hada
+hlavaX, hlavaY = had[0]
+znak(hlavaX, hlavaY, "*")
+
+# hlavni smycka
+while True:
+    # zjistit smer:
+    char = klavesa()
+    if char == 113: break  # q
+    elif char == pom.KEY_RIGHT: smer = 'doprava'
+    elif char == pom.KEY_LEFT: smer = 'doleva'
+    elif char == pom.KEY_UP: smer = 'nahoru'
+    elif char == pom.KEY_DOWN: smer = 'dolu'
+    posunHada(smer)
+    time.sleep(.1)
+
+
+
+
+
+
