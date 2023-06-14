@@ -1,0 +1,42 @@
+
+
+
+1) vsechno vymazali
+
+2) ohradku
+
+3) krmivo
+
+
+4) nadefinovali jsme inicialni hlavicku
+5) vykreslili jsme hlavicku
+6) nadefinovali jsme inicialni smer (dolu)
+
+CYKL:
+    # tohle tady probiha porad dokola
+
+    1) zjisteni klavesy a nastaveni smeru
+
+    2) vypocitani nove hlavicky podle smeru
+    
+    .. kontrola jestli novaHlavicka je zradlo nebo ne
+
+    .. vykreslit novou hlavicku
+
+    3) jestli had papal: nic, jinak: vymazani stare hlavicky
+
+    4) kontrola smrti
+
+    5) ulozeni nove hlavicky jako stare
+
+
+
+
+
+
+
+
+
+
+
+
