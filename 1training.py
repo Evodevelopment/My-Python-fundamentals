@@ -11,4 +11,8 @@ powertrainingload = 'upper body, lower body'
 if trainoverloadt
 give yourself time to rest :)
 
+editace textu v pythonu
 Lepsi vynechat jeden trenink, nez jeden odpocinek.
+
+#what means 
+higly_active = frequency == 'daily'
