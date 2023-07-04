@@ -16,3 +16,6 @@ Lepsi vynechat jeden trenink, nez jeden odpocinek.
 
 #what means 
 higly_active = frequency == 'daily'
+#need  to work on my training Power and the Sport
+
+
