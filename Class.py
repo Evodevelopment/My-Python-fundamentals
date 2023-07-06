@@ -32,3 +32,5 @@ class Wrapmymethodsaround(WrapinMixin):
     def __call__:
          return super(Wrapmymethodsaround, self).__call__(hey, you, *args)
 
+#source URL: https://stackoverflow.com/questions/6307761/how-to-decorate-all-functions-of-a-class-without-typing-it-over-and-over-for-eac
+
