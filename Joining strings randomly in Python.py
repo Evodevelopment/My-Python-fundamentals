@@ -32,3 +32,7 @@ random.seed = (os.urandom(1024))
 print ''.join(random.choice(chars) for i in range(length))
 
 # Python 3.6+ has a secrets module specifically for this purpose:
+import secrets
+
+password_length = 13
+print(secrets.token_urlsafe(password_length))
