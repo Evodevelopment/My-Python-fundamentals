@@ -21,3 +21,14 @@ if not [el for el in arr if arr.count(l) > 1]:
     arr.append(random.choice(words))                
 print ''.join(arr)
 
+
+# creating a random 'password'
+import os, random, string
+
+length = 13
+chars = string.ascii_letters + string.digits + '!@#$%^&*()'
+random.seed = (os.urandom(1024))
+
+print ''.join(random.choice(chars) for i in range(length))
+
+# Python 3.6+ has a secrets module specifically for this purpose:
