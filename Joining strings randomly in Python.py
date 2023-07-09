@@ -36,3 +36,6 @@ import secrets
 
 password_length = 13
 print(secrets.token_urlsafe(password_length))
+
+https://pynative.com/python-generate-random-string/
+https://geekflare.com/password-generator-python-code/
