@@ -34,4 +34,5 @@ def chain_elements_or_slices(*elements_or_slices):
     return new_list
 
 new_list = chain_elements_or_slices(a[0:2], a[4], a[6:])
-#URL : https://stackoverflow.com/questions/19252301/creating-a-new-list-with-subset-of-list-using-index-in-python
+#URL:
+https://stackoverflow.com/questions/19252301/creating-a-new-list-with-subset-of-list-using-index-in-python
