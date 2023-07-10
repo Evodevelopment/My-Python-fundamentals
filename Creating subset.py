@@ -36,3 +36,20 @@ def chain_elements_or_slices(*elements_or_slices):
 new_list = chain_elements_or_slices(a[0:2], a[4], a[6:])
 #URL:
 https://stackoverflow.com/questions/19252301/creating-a-new-list-with-subset-of-list-using-index-in-python
+
+#solution2:
+#the following definition might be more efficient than the first solution proposed
+
+def new_list_from_intervals(original_list, *intervals):
+    n = sum(j - i for i, j in intervals)
+    new_list = [None] * n
+    index = 0
+    for i, j in intervals :
+        for k in range(i, j) :
+            new_list[index] = original_list[k]
+            index += 1
+
+    return new_list
+
+#then you can use it like below
+new_list = new_list_from_intervals(original_list, (0,2), (4,5), (6, len(original_list)))
