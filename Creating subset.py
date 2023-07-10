@@ -14,3 +14,24 @@ b= [0, 1, 2, 4, 6, 7, 8]
 
 #then a simple one-line solution will be
 c = [a[i] for i in b]
+
+#Solution1
+Try new_list = a[0:2] + [a[4]] + a[6:].
+
+#Or more generally, something like this:
+from itertools import chain
+new_list = list(chain(a[0:2], [a[4]], a[6:]))
+This works with other sequences as well, and is likely to be faster.
+
+#Or you could do this:
+def chain_elements_or_slices(*elements_or_slices):
+    new_list = []
+    for i in elements_or_slices:
+        if isinstance(i, list):
+            new_list.extend(i)
+        else:
+            new_list.append(i)
+    return new_list
+
+new_list = chain_elements_or_slices(a[0:2], a[4], a[6:])
+#URL : https://stackoverflow.com/questions/19252301/creating-a-new-list-with-subset-of-list-using-index-in-python
