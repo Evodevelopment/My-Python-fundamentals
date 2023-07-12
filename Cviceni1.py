@@ -5,6 +5,13 @@ x.count(x[0]): The count() #method is used to count the number of occurrences of
 import math
 print(math.pi)
 
+my_list = [1, 2, 3, 4, 5]
+my_list.remove(3)
+print(my_list)
+
+#output: [1, 2, 4, 5]
+
+
 #The 
 .append()
 #list method adds a new element to the  end of a list. 
