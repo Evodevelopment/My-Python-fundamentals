@@ -12,6 +12,20 @@ print(my_list)
 #output: [1, 2, 4, 5]
 
 
+The 
+built-in 
+sorted()
+function 
+sorts 
+the 
+elements 
+of 
+a 
+list 
+in 
+ascending 
+order. 
+
 #The 
 .append()
 #list method adds a new element to the  end of a list. 
