@@ -1,3 +1,9 @@
+class
+define objects
+finish your old exercise
+
+Do new one on Udemy
+
 define class (__init__)
   character
   atribute
