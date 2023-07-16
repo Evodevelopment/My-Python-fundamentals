@@ -11,7 +11,6 @@ print(my_list)
 
 #output: [1, 2, 4, 5]
 
-
 The 
 built-in 
 sorted()
