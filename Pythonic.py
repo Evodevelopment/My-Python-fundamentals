@@ -18,3 +18,6 @@ print(better_list)
 # Print the list created by using list comprehension
 best_list = [name for name in names if len(name) >= 6]
 print(best_list)
+
+#The Zen of Python, by Tim Peters
+import this
