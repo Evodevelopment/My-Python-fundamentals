@@ -63,3 +63,14 @@ names_uppercase = list(names_map)
 
 # Print the list created above
 print(names_uppercase)
+
+#Iterating With for Loops in Python
+#A for loop in Python uses collection-based iteration. This means that Python assigns the next item from an iterable to the 
+#loop variable on every iteration, like in this example:
+
+values = ["a", "b", "c"]
+
+for value in values:
+    print(value)
+
+
