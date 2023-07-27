@@ -26,6 +26,10 @@ import this
 nums = range(6)
 print(type(nums))
 
+for index in range(len(values)):
+    value = values[index]
+    print(index, value)
+
 # Convert nums to a list
 nums_list = list(nums)
 print(nums_list)
