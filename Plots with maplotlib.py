@@ -15,10 +15,10 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots
 
 # Plot MLY-PRCP-NORMAL from seattle_weather against the MONTH
-ax.(seattle_weather["MONTH"], ____)
+ax.(seattle_weather["MONTH"], austin_weather)
 
 # Plot MLY-PRCP-NORMAL from austin_weather against MONTH
-ax.____(____, ____)
+ax.____(MLY, ____)
 
 # Call the show function
-____
+plt.show()
