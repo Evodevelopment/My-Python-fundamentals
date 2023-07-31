@@ -8,6 +8,8 @@ fig, ax  = plt.subplots()
 # Call the show function to show the result
 plt.show()
 
+
+#Adding data to an Axes object
 # Import the matplotlib.pyplot submodule and name it plt
 import matplotlib.pyplot as plt
 
