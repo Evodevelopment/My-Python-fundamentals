@@ -1,3 +1,5 @@
+Continue step by step
+
 #Basic matplotlib XY graph
 # Import the matplotlib.pyplot submodule and name it plt
 import matplotlib.pyplot as plt
