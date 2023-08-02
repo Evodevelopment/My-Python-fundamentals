@@ -5,6 +5,7 @@ pracuju na svem potucku
 stava se z nej reka
 co tece do daleka
 
+Proste jsem pracovity a delam co jde.
 
 Dobrý den, 
 
