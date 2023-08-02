@@ -1,5 +1,8 @@
 Continue step by step
 
+Take it easy champ
+and stay hard learning everyday :-)
+
 Krucek po krucku
 pracuju na svem potucku
 stava se z nej reka
