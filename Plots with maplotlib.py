@@ -1,5 +1,10 @@
 Continue step by step
 
+Krucek po krucku
+pracuju na svem potucku
+stava se z nej reka
+tece do daleka
+
 #Basic matplotlib XY graph
 # Import the matplotlib.pyplot submodule and name it plt
 import matplotlib.pyplot as plt
