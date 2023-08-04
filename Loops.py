@@ -10,3 +10,10 @@ for item in range (0, 100):
 for _ in range (100):
 print(_)
 
+#Iterable
+
+#Dictionaries have two main components: KEY and VALUE = k, v
+for k, v in user_items:
+
+#Loops
+
