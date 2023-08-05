@@ -31,8 +31,4 @@ elif is_magician and not is_expert:
 elif not is_magician:
   print("You need magic powers")
 
-
-
-#
-
-If
+## Focus on Readability of your Code :-)
