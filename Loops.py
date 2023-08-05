@@ -17,3 +17,22 @@ for k, v in user_items:
 
 #Loops
 
+#Logical operators
+#if variable has certain logical value - 0 or 1, True of False, chceck == or != , then print this
+is_magician = True
+is_expert = False
+
+if is_expert and is_magician:
+  print("You are a master magician")
+
+elif is_magician and not is_expert:
+  print("at least you are getting there")
+
+elif not is_magician:
+  print("You need magic powers")
+
+
+
+#
+
+If
