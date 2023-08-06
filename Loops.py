@@ -1,4 +1,7 @@
+## Focus on Readability of your Code :-)
+
 #Udemy course outline
+
 #enumarate
 
 #Special   built in loop function - range():
@@ -10,7 +13,8 @@ for item in range (0, 100):
 for _ in range (100):
 print(_)
 
-#Iterable
+#Iterable - list, dictionary, tuple, set, string
+
 
 #Dictionaries have two main components: KEY and VALUE = k, v
 for k, v in user_items:
