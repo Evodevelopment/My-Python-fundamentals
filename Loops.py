@@ -19,6 +19,45 @@ print(_)
 #Dictionaries have two main components: KEY and VALUE = k, v
 for k, v in user_items:
 
+  # Creating a dictionary to store information about a person
+person = {
+    "first_name": "John",
+    "last_name": "Doe",
+    "age": 30,
+    "city": "New York",
+    "email": "john@example.com",
+    "is_student": False,
+    "skills": ["Python", "JavaScript", "SQL"],
+    "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "zip_code": "10001"
+    }
+}
+
+# Accessing values in the dictionary
+print("First Name:", person["first_name"])
+print("Age:", person["age"])
+print("Skills:", person["skills"][0])  # Accessing the first skill
+print("Street:", person["address"]["street"])
+
+# Modifying values in the dictionary
+person["age"] = 31
+person["email"] = "johndoe@example.com"
+person["skills"].append("HTML")
+person["address"]["zip_code"] = "10002"
+
+# Adding a new key-value pair
+person["country"] = "USA"
+
+# Deleting a key-value pair
+del person["is_student"]
+
+# Iterating through the dictionary
+for key, value in person.items():
+    print(key, ":", value)
+
+###
 #Loops
 for item in "Zero to Mastery":
   print(item)
