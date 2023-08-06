@@ -26,7 +26,13 @@ for item in (1,2,3,4,5):
   print(item)
   print(item)
   print(item)
-  
+
+for item in (1,2,3,4,5):
+  for x in [a, b, c]
+    print(1, 'c')
+
+
+
 #Logical operators
 #if variable has certain logical value - 0 or 1, True of False, chceck == or != , then print this
 is_magician = True
