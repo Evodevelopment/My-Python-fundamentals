@@ -18,6 +18,10 @@ print(_)
 
 #Dictionaries have two main components: KEY and VALUE = k, v
 for k, v in user_items:
+#Dictionaries have 3 reallz useful methods for creatint
+.items() - gives key value pair
+.values() - gives values of dictionary
+.keys() - gives keys of dictionary
 
   # Creating a dictionary to store information about a person
 person = {
