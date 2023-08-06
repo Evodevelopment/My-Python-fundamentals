@@ -21,6 +21,11 @@ for item in "Zero to Mastery":
 
 for item in (1,2,3,4,5):
   print(item)
+
+for item in (1,2,3,4,5):
+  print(item)
+  print(item)
+  print(item)
   
 #Logical operators
 #if variable has certain logical value - 0 or 1, True of False, chceck == or != , then print this
