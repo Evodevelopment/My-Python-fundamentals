@@ -3,6 +3,21 @@
 #Udemy course outline
 
 #enumarate
+for i, char in enumerate(list(range(100))):
+  print(i, char)
+  if char == 50:
+    print(f'index of 50 is: {i})
+
+for i, char in enumerate('Hellloooo'):
+  print(i, char)
+
+for i, char in enumerate([1, 2 ,3 ]):
+  print(i, char)
+
+#enumarate with tuple:
+for i, char in enumerate((1, 2, 3)):
+  print(i, char)
+
 
 #Special   built in loop function - range():
 print(range(0, 100))
