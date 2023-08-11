@@ -4,10 +4,10 @@
 
 ### What is good code
 
-* clean *
-* Readability *
-* Predictabillity *
-* DRY ( Don't repeat yourself ) *
+** clean *
+** Readability *
+** Predictabillity *
+** DRY ( Don't repeat yourself ) *
 
 
 
