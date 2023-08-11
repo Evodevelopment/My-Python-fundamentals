@@ -91,3 +91,4 @@ input_queue = queue.Queue()
 # start a thread to handle user input
 input_thread = threading.Thread(target=handle_input, args=(input_queue,))
 input_thread.daemon = True
+
