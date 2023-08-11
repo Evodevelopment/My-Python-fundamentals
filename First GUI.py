@@ -22,3 +22,13 @@ for row in picture:
     else:
       print(' ', end= '')
   print('')
+
+# cleaning up the code:
+
+for row in picture:
+  for pixel in image:
+    if (pixel == 1):
+      print ('*' end= '')
+    else:
+      print(' ', end= '')
+  print('')
