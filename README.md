@@ -1,7 +1,9 @@
 # Python Fundamentals and continuous Pythonic learning
 
 ## Developer Fundametals
+
 ### What is good code
+
 * clean *
 * Readability *
 * Predictabillity *
