@@ -23,6 +23,7 @@ for row in picture:
       print(' ', end= '')
   print('')
 
+
 break
 
 # cleaning up the code  
