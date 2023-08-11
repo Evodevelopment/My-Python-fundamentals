@@ -1,11 +1,11 @@
 # Python-basics
 
-Developer Fundametals
-# What is good code
+#Developer Fundametals
+### What is good code
 * clean *
-*** Readability ***
-*** Predictabillity ***
-*** DRY ( Don't repeat yourself ) ***
+* Readability *
+* Predictabillity *
+* DRY ( Don't repeat yourself ) *
 
 
 
