@@ -1,6 +1,6 @@
 # Python-basics
 
-#Developer Fundametals
+# Developer Fundametals
 ### What is good code
 * clean *
 * Readability *
