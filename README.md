@@ -2,7 +2,7 @@
 
 Developer Fundametals
 # What is good code
-*** clean ***
+* clean *
 *** Readability ***
 *** Predictabillity ***
 *** DRY ( Don't repeat yourself ) ***
