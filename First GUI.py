@@ -23,8 +23,10 @@ for row in picture:
       print(' ', end= '')
   print('')
 
-# cleaning up the code:
-  #defining variales to if the code the fill and empty repeats in my code
+break
+
+# cleaning up the code  
+  # defining variales to if the code the fill and empty repeats in my code
   
 fill = '*'
 empty = ''
