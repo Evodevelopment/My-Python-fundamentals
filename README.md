@@ -2,11 +2,14 @@
 
 ## Developer Fundametals
 
-### What is good code
+#### What is good code
 
--  **clean**
--  **Readability**
--  **Predictabillity**
+-  **Clean**
+-  
+-  **Readable**
+-  
+-  **Predictable**
+-  
   **DRY ( Don't repeat yourself )**
 
 
