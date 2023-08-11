@@ -5,12 +5,12 @@
 #### What is good code
 
 -  **Clean**
--  
+  
 -  **Readable**
--  
+  
 -  **Predictable**
--  
-  **DRY ( Don't repeat yourself )**
+  
+-  **DRY ( Don't repeat yourself )**
 
 
 
