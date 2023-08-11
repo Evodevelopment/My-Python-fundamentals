@@ -2,7 +2,7 @@
 
 ## Developer Fundametals
 
-#### What is good code
+#### What is good Pythonic practice?
 
 -  **Clean**
   
