@@ -24,11 +24,14 @@ for row in picture:
   print('')
 
 # cleaning up the code:
-
+  #defining variales to if the code the fill and empty repeats in my code
+  
+fill = '*'
+empty = ''
 for row in picture:
-  for pixel in image:
+  for pixel in row:
     if (pixel == 1):
-      print ('*' end= '')
+      print (fill, end= '')
     else:
-      print(' ', end= '')
+      print(empty, end= '')
   print('')
