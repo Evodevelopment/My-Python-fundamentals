@@ -1,13 +1,13 @@
-# Python Fundamentals and continuous Pythonic learning
+# Python Fundamentals and working on Pythonic
 
 ## Developer Fundametals
 
 ### What is good code
 
-** clean *
-** Readability *
-** Predictabillity *
-** DRY ( Don't repeat yourself ) *
+** clean **
+** Readability **
+** Predictabillity **
+** DRY ( Don't repeat yourself ) **
 
 
 
