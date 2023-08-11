@@ -1,6 +1,6 @@
-# Python-basics
+# Python Fundamentals and continuous Pythonic learning
 
-# Developer Fundametals
+## Developer Fundametals
 ### What is good code
 * clean *
 * Readability *
