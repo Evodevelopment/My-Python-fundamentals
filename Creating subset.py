@@ -53,3 +53,4 @@ def new_list_from_intervals(original_list, *intervals):
 
 #then you can use it like below
 new_list = new_list_from_intervals(original_list, (0,2), (4,5), (6, len(original_list)))
+
