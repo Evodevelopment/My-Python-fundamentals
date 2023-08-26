@@ -5,6 +5,7 @@ import sys
 import atexit
 import time
 
+
 # set up the game window
 window_width = 800
 window_height = 600
