@@ -1,3 +1,7 @@
+post_code = {60200, 639 00,x}
+print(post_code)
+
+
 x.index(x.count(x[0]))
 x.count(x[0]): The count() #method is used to count the number of occurrences of a particular element in the list x. In this case, it 
 #counts the number of occurrences of x[0] (the first element) in the list x.
