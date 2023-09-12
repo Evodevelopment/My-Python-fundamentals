@@ -2,6 +2,16 @@
 
 #Udemy course outline
 
+#another enumarete usage:
+names = ["Alice", "Bob", "Charlie", "David"]
+
+# Using enumerate in a for loop
+indexed_names = []
+for i, name in enumerate(names):
+    index_name = (i, name)
+    indexed_names.append(index_name)
+print(indexed_names)
+
 #enumarate
 for i, char in enumerate(list(range(100))):
   print(i, char)
