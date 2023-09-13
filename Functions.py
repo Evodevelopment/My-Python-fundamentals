@@ -5,9 +5,13 @@ def say_hello():
 
 say_hello()
 
-# parametrs and arguments:
+# parametrs:
 def say_hello(name, emoji):
-  print("Helllooooo")
+  print(f"Helllooooo {name} {emoji}")
+
+#arguments
+say_hello('Andrei', ':-)')
+
 
 say_hello()
 
