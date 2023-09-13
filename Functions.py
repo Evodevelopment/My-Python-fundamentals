@@ -15,6 +15,7 @@ def show_tree():
   print('')
 
 show_tree()
+# If we print(show_tree) it shows were is the function saved in the memory:)
 
 
 # I want to discuss some more functions with chatgpt
