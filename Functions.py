@@ -5,4 +5,16 @@ def say_hello():
 
 say_hello()
 
+def show_tree():
+  for row in picture:
+  for pixel in image:
+    if (pixel == 1):
+      print ('*' end= '')
+    else:
+      print(' ', end= '')
+  print('')
+
+show_tree()
+
+
 def function1
