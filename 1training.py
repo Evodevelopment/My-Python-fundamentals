@@ -1,4 +1,4 @@
-# Programming training 2.7. 
+# Programming training 2.7. code revie 17/9 
 # Fundamental movement training
 Frequency = 'once a week'
 intensity = 'low'
