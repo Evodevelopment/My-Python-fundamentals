@@ -1,4 +1,5 @@
 # Programming training 2.7. code revie 17/9 
+# halo Ada, I need to work
 # Fundamental movement training
 Frequency = 'once a week'
 intensity = 'low'
