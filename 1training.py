@@ -19,15 +19,14 @@ intensitypowert = 'low daily or twice daiuly, medium to high'
 powertrainingload = 'upper body, lower body'
 decompression = ' swimming, walking, laying '
 
-if trainoverloadt
-give yourself time to rest :)
+if overtrain:
+  need to do better job decompressing
+  print("Be more nice to yourself")
+# give yourself time to rest :)
 
-
-
-editace textu v pythonu
-Lepsi vynechat jeden trenink, nez jeden odpocinek.
+***Lepsi vynechat jeden trenink, nez jeden odpocinek.***
 
 #what means 
-higly_active = frequency == 'daily'
+higly_active = frequency == 'daily on low level as possible'
 #need  to work on my training Power and the Sport
 
