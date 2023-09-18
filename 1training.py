@@ -15,8 +15,9 @@ intensity = 'low'
 
 # Power training 
 frequencypowert = '2 - 3 times a week'
-intensitypowert = 'medium to high'
+intensitypowert = 'low daily or twice daiuly, medium to high'
 powertrainingload = 'upper body, lower body'
+decompression = ' swimming, walking, laying '
 
 if trainoverloadt
 give yourself time to rest :)
