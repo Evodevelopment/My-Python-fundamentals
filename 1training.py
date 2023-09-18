@@ -8,7 +8,7 @@ highly_active = Frequency == ' daily '
 print("highly active user: ")
 print(highly_active)
 
-
+# Need to do more loops here :-)
 
 frequency = 'everyday'
 intensity = 'low'
