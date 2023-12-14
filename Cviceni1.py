@@ -1,6 +1,8 @@
 post_code = {60200, 639 00,x}
 print(post_code)
 
+#for the post code to pass in some function or even to see it correctlzy in some print the 602 00 needs to be a string
+#or i need a fuction which will improve this
 
 x.index(x.count(x[0]))
 x.count(x[0]): The count() #method is used to count the number of occurrences of a particular element in the list x. In this case, it 
