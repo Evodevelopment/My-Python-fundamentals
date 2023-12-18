@@ -1,7 +1,7 @@
-post_code = {60200, 639 00,x}
+post_code = {"602 00", 639 00,x}
 print(post_code)
 
-#for the post code to pass in some function or even to see it correctlzy in some print the 602 00 needs to be a string
+#for the post code to pass in some function or even to see it correctly in some print the 602 00 needs to be a string
 #or i need a fuction which will improve this
 
 x.index(x.count(x[0]))
@@ -16,20 +16,6 @@ my_list.remove(3)
 print(my_list)
 
 #output: [1, 2, 4, 5]
-
-The 
-built-in 
-sorted()
-function 
-sorts 
-the 
-elements 
-of 
-a 
-list 
-in 
-ascending 
-order. 
 
 #The 
 .append()
