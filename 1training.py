@@ -1,4 +1,4 @@
-# Programming training 2.7. code revie 17/9 
+# Programming training 2.7., code revie 17/9,
 # Fundamental movement training
 Frequency = 'once a week'
 intensity = 'low'
@@ -7,7 +7,7 @@ highly_active = Frequency == ' daily '
 print("highly active user: ")
 print(highly_active)
 
-# Need to do more loops here :-)
+# Need to do more loops here
 
 frequency = 'everyday'
 intensity = 'low'
@@ -19,13 +19,7 @@ powertrainingload = 'upper body, lower body'
 decompression = ' swimming, walking, laying '
 
 if overtrain:
-  need to do better job decompressing
-  print("Be more nice to yourself")
-# give yourself time to rest :)
+  print("Implement more relaxing activites")
 
-***Lepsi vynechat jeden trenink, nez jeden odpocinek.***
 
-#what means 
-higly_active = frequency == 'daily on low level as possible'
-#need  to work on my training Power and the Sport
-
+** Lepsi vynechat jeden trenink, nez jeden odpocinek. **
