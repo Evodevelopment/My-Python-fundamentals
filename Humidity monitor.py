@@ -7,7 +7,7 @@ print("The current date and time is", currentDateAndTime)
 
 #To get the current time in particular, you can use the strftime() method and pass into it the string ”%H:%M:%S” representing hours, minutes, and seconds.
 
-This would give you the current time in a 24Hour format:
+#This would give you the current time in a 24Hour format:
 
 from datetime import datetime
 currentDateAndTime = datetime.now()
