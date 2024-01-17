@@ -3,4 +3,4 @@ def hello():
 
 greet = hello
 
-print(greet)
+print(greet(()
