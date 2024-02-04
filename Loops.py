@@ -1,7 +1,3 @@
-## Focus on Readability of your Code :-)
-
-#Udemy course outline
-
 #another enumarete usage:
 names = ["Alice", "Bob", "Charlie", "David"]
 
