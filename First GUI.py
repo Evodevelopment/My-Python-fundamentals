@@ -1,5 +1,4 @@
 #Exercise
-
 picture = [
   [0, 0, 0, 1, 0, 0, 0],
   [0, 0, 1, 1, 1, 0, 0],
@@ -23,11 +22,10 @@ for row in picture:
       print(' ', end= '')
   print('')
 
-
 break
 
 # cleaning up the code  
-  # defining variales to if the code the fill and empty repeats in my code
+# defining variales to if the code the fill and empty repeats in my code
   
 fill = '*'
 empty = ''
