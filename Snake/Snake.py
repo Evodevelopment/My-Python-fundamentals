@@ -93,3 +93,4 @@ input_queue = queue.Queue()
 input_thread = threading.Thread(target=handle_input, args=(input_queue,))
 input_thread.daemon = True
 
+# kde je zbytek codu?
