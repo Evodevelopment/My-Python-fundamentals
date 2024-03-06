@@ -1,5 +1,6 @@
-# Basic To-Do Application in Python
 
+# Basic To-Do Application in Python
+# GUI to be added
 tasks = []
 
 def show_menu():
