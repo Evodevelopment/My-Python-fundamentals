@@ -18,3 +18,11 @@ Pythonic code adheres to the idiomatic conventions and guidelines of the Python 
 - **Predictable**: Code behavior should be consistent and predictable. Minimize surprises for other developers (including yourself) by following common patterns and avoiding unexpected side effects.
   
 - **DRY (Don't Repeat Yourself)**: Eliminate redundancy by reusing code and abstracting common functionality into reusable components. This reduces the risk of errors and makes maintenance easier.
+
+### Comments
+
+In programming, the practice of commenting code to make it clear and concise is crucial. While comments are valuable for documenting code and explaining its purpose, the goal should always be to write self-explanatory code whenever possible. Meaningful variable names and a clear, concise code structure can often eliminate the need for excessive comments.
+
+However, there are scenarios where comments are essential for providing context or explaining complex logic that may not be immediately obvious from the code alone. In such cases, strive to write comments that add value and clarity without duplicating the information already present in the code.
+
+By default, comments in Python are not styled differently from the rest of the code. However, enhancing readability through syntax highlighting settings or plugins in your preferred IDE or text editor can be beneficial. For example, in Visual Studio Code, installing extensions like "Python" or "Python Syntax Highlighting" allows you to customize the appearance of comments, improving their visibility and distinguishing them from the code.
