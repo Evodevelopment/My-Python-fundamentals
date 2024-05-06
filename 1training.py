@@ -20,6 +20,3 @@ decompression = ' swimming, walking, laying '
 
 if overtrain:
   print("Implement more relaxing activites")
-
-
-** Lepsi vynechat jeden trenink, nez jeden odpocinek. **
