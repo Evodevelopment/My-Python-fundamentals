@@ -1,6 +1,10 @@
 
 # Python Fundamentals
 
+- make working To do application
+- the problem is that it in the beginnig tends to just pritout its functions which can be called redundant.
+- Map out the needed steps on paper - do a functionality map
+
 This repository contains code snippets and small projects aimed at learning and practicing Python fundamentals. It focuses on understanding Pythonic practices, clean coding principles, and fundamental developer concepts.
 
 ## Developer Fundamentals
